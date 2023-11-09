@@ -762,3 +762,40 @@ Alternately, you can install this by running `pip install pycaret[models]`
 2023-11-08 22:41:59,081:INFO:Copying training dataset
 2023-11-08 22:41:59,081:INFO:Plot type: learning
 2023-11-08 22:41:59,842:INFO:Fitting Model
+2023-11-08 22:46:00,122:INFO:Initializing predict_model()
+2023-11-08 22:46:00,122:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x00000234E260B130>, estimator=ExtraTreesRegressor(n_jobs=-1, random_state=2775), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, replace_labels_in_column=<function _SupervisedExperiment.predict_model.<locals>.replace_labels_in_column at 0x00000234F979CF70>)
+2023-11-08 22:46:00,122:INFO:Checking exceptions
+2023-11-08 22:46:00,122:INFO:Preloading libraries
+2023-11-08 22:46:00,483:INFO:Initializing plot_model()
+2023-11-08 22:46:00,483:INFO:plot_model(plot=cooks, fold=KFold(n_splits=10, random_state=None, shuffle=False), use_train_data=False, verbose=False, display=None, display_format=None, estimator=ExtraTreesRegressor(n_jobs=-1, random_state=2775), feature_name=None, fit_kwargs={}, groups=None, label=False, plot_kwargs=None, save=False, scale=1, self=<pycaret.regression.oop.RegressionExperiment object at 0x00000234E260B130>, system=True)
+2023-11-08 22:46:00,483:INFO:Checking exceptions
+2023-11-08 22:46:00,603:INFO:Preloading libraries
+2023-11-08 22:46:01,475:INFO:Copying training dataset
+2023-11-08 22:46:01,475:INFO:Plot type: cooks
+2023-11-08 22:46:01,909:INFO:Fitting Model
+2023-11-08 22:46:09,187:INFO:Visual Rendered Successfully
+2023-11-08 22:46:09,912:INFO:plot_model() successfully completed......................................
+2023-11-08 22:47:41,737:INFO:Initializing predict_model()
+2023-11-08 22:47:41,737:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x00000234E260B130>, estimator=ExtraTreesRegressor(n_jobs=-1, random_state=2775), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, replace_labels_in_column=<function _SupervisedExperiment.predict_model.<locals>.replace_labels_in_column at 0x0000023495F01BD0>)
+2023-11-08 22:47:41,737:INFO:Checking exceptions
+2023-11-08 22:47:41,737:INFO:Preloading libraries
+2023-11-08 22:47:41,739:INFO:Set up data.
+2023-11-08 22:47:41,743:INFO:Set up index.
+2023-11-08 22:49:51,513:INFO:Initializing plot_model()
+2023-11-08 22:49:51,513:INFO:plot_model(plot=tree, fold=KFold(n_splits=10, random_state=None, shuffle=False), use_train_data=False, verbose=False, display=None, display_format=None, estimator=ExtraTreesRegressor(n_jobs=-1, random_state=2775), feature_name=None, fit_kwargs={}, groups=None, label=False, plot_kwargs=None, save=False, scale=1, self=<pycaret.regression.oop.RegressionExperiment object at 0x00000234E260B130>, system=True)
+2023-11-08 22:49:51,513:INFO:Checking exceptions
+2023-11-08 22:49:51,602:INFO:Preloading libraries
+2023-11-08 22:49:52,277:INFO:Copying training dataset
+2023-11-08 22:49:52,277:INFO:Plot type: tree
+2023-11-08 22:49:53,204:INFO:Plotting decision trees
+2023-11-08 22:49:53,304:INFO:Plotting tree 0
+2023-11-08 22:52:27,031:INFO:Plotting tree 1
+2023-11-08 22:55:19,114:INFO:Plotting tree 2
+2023-11-08 22:58:00,613:INFO:Plotting tree 3
+2023-11-08 23:00:56,812:INFO:Plotting tree 4
+2023-11-08 23:03:30,663:INFO:Plotting tree 5
+2023-11-08 23:06:09,044:INFO:Plotting tree 6
+2023-11-08 23:08:54,717:INFO:Plotting tree 7
+2023-11-08 23:11:40,736:INFO:Plotting tree 8
+2023-11-08 23:14:35,691:INFO:Plotting tree 9
+2023-11-08 23:17:42,120:INFO:Plotting tree 10
