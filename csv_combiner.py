@@ -26,7 +26,7 @@ def combine_csv_files(folder_path, output_file):
 csv_folder_path = '/Users/phil/Downloads/2500-40000/'
 
 # Specify the path for the master CSV file
-output_csv_file = '2500-40000K.csv'
+output_csv_file = '2500-40000K_with_metallicity.csv'
 
 # Call the function to combine CSV files
 combine_csv_files(csv_folder_path, output_csv_file)
